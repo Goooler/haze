@@ -38,7 +38,7 @@ import dev.chrisbanes.haze.materials.HazeMaterials
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalHazeMaterialsApi::class)
 @Composable
-fun ImagesList(navController: NavHostController) {
+fun ImagesListSample(navController: NavHostController) {
   MaterialTheme {
     Scaffold(
       topBar = {

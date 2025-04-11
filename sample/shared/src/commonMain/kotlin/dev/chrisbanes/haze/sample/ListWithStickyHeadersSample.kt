@@ -43,7 +43,7 @@ import dev.chrisbanes.haze.materials.HazeMaterials
   ExperimentalFoundationApi::class,
 )
 @Composable
-fun ListWithStickyHeaders(navController: NavHostController) {
+fun ListWithStickyHeadersSample(navController: NavHostController) {
   val hazeState = remember { HazeState() }
   val listState = rememberLazyListState()
 

@@ -43,7 +43,7 @@ import dev.chrisbanes.haze.materials.HazeMaterials
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalHazeMaterialsApi::class)
 @Composable
-fun BottomSheet(navController: NavHostController) {
+fun BottomSheetSample(navController: NavHostController) {
   var imageIndex by remember { mutableIntStateOf(0) }
 
   Scaffold(

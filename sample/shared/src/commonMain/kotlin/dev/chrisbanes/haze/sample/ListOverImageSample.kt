@@ -40,7 +40,7 @@ import dev.chrisbanes.haze.materials.HazeMaterials
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalHazeMaterialsApi::class)
 @Composable
-fun ListOverImage(navController: NavHostController) {
+fun ListOverImageSample(navController: NavHostController) {
   var imageIndex by remember { mutableIntStateOf(0) }
 
   MaterialTheme {
